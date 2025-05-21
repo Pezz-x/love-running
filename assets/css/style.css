@@ -1,5 +1,5 @@
-/* Google Fonts inport */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -36,7 +36,7 @@ header a {
     color: inherit;
 }
 
-h1{
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -50,7 +50,7 @@ h1{
 }
 
 #menu > li {
-    margin: 1rem;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -58,7 +58,7 @@ h1{
 }
 
 /* Navbar styles with dropdown toggle */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -100,14 +100,14 @@ main {
 }
 
 #social-networks i {
-    font-size: 150%;
+    font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /*Headder */
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -134,15 +134,14 @@ main {
         margin: 0 0.5rem;
     }
 
-    /* main content */
+    /* Main content */
     main {
-        /* push main content down to accommodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
 
-
-/* Media query: laptops and larger (992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
